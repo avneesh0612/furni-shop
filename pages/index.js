@@ -1,5 +1,7 @@
 import Head from "next/head";
-import Header from "../components/Header";
+import Companies from "../components/Companies";
+import Deals from "../components/Deals";
+import Footer from "../components/Footer";
 import HeroHome from "../components/HeroHome";
 
 export default function Home() {
@@ -10,6 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroHome />
+      <Companies />
+      <Deals />
+      <Footer />
     </div>
   );
 }

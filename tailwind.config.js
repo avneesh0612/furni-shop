@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       fontFamily: {
         Montserrat: ["Montserrat", "sans-serif"],
+        OpenSans: ["Open Sans", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
     },
   },
