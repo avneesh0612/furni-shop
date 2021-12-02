@@ -8,10 +8,10 @@ const Footer = () => {
           Start your business today for $0+ state fees.
         </h3>
         <div className="flex items-center space-x-3">
-          <button className="bg-[#FCFBFF] text-[#244D4D] font-medium font-Inter h-12 px-8 py-2 rounded-full">
+          <button className="bg-[#FCFBFF] text-[#244D4D] font-medium font-Inter px-8 py-2 rounded-full">
             Get Started
           </button>
-          <button className="bg-[#3A5F5F] text-white font-medium font-Inter h-12 px-8 py-2 rounded-full">
+          <button className="bg-[#3A5F5F] text-white font-medium font-Inter px-8 py-2 rounded-full">
             Contact Sales
           </button>
         </div>

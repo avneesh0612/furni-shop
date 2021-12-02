@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "../components/About";
 import Companies from "../components/Companies";
 import Deals from "../components/Deals";
 import Footer from "../components/Footer";
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroHome />
       <Companies />
       <Deals />
+      <About />
       <Footer />
     </div>
   );

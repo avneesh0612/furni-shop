@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Image from "next/image";
-import { ArrowDownIcon } from "./icons";
+import { ArrowDownIcon, ArrowDownSideIcon, ArrowUpIcon } from "./icons";
 
 const HeroHome = () => {
   return (

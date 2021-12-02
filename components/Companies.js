@@ -17,6 +17,7 @@ const Companies = () => {
       <div className="flex items-center justify-between w-9/12 mt-10">
         {companies.map((company) => (
           <Image
+            key={company}
             src={`/logos/${company}.svg`}
             width={116}
             height={25}

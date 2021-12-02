@@ -26,9 +26,9 @@ export const MoreIcon = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <line y1="1" x2="13" y2="1" stroke="#242424" stroke-width="2" />
-      <line y1="7" x2="19" y2="7" stroke="#242424" stroke-width="2" />
-      <line x1="6" y1="13" x2="19" y2="13" stroke="#242424" stroke-width="2" />
+      <line y1="1" x2="13" y2="1" stroke="#242424" strokeWidth="2" />
+      <line y1="7" x2="19" y2="7" stroke="#242424" strokeWidth="2" />
+      <line x1="6" y1="13" x2="19" y2="13" stroke="#242424" strokeWidth="2" />
     </svg>
   );
 };
@@ -46,7 +46,7 @@ export const ArrowDownIcon = ({ className }) => {
       <path
         d="M12 2V30.5M12 30.5L22 20.5M12 30.5L2 20.5"
         stroke="white"
-        stroke-width="3"
+        strokeWidth="3"
         strokeLinecap="round"
       />
     </svg>
@@ -105,9 +105,9 @@ export const FireIcon = ({ className }) => {
           width="82"
           height="82"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -140,11 +140,56 @@ export const FireIcon = ({ className }) => {
           y2="54.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF9159" />
-          <stop offset="0.6875" stop-color="#FF7631" />
-          <stop offset="1" stop-color="#FF6A1F" />
+          <stop stopColor="#FF9159" />
+          <stop offset="0.6875" stopColor="#FF7631" />
+          <stop offset="1" stopColor="#FF6A1F" />
         </linearGradient>
       </defs>
+    </svg>
+  );
+};
+
+export const ArrowUpIcon = ({ className }) => {
+  return (
+    <svg
+      className={className}
+      width="16"
+      height="10"
+      viewBox="0 0 16 10"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M1.5 8.5L8 2L14.5 8.5" stroke="#242424" strokeWidth="1.5" />
+    </svg>
+  );
+};
+
+export const ArrowDownSideIcon = ({ className }) => {
+  return (
+    <svg
+      className={className}
+      width="16"
+      height="9"
+      viewBox="0 0 16 9"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M1.5 1L8 7.5L14.5 1" stroke="#242424" strokeWidth="1.5" />
+    </svg>
+  );
+};
+
+export const LineIcon = ({ className }) => {
+  return (
+    <svg
+      className={className}
+      width="1"
+      height="50"
+      viewBox="0 0 1 50"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line x1="0.5" x2="0.5" y2="50" stroke="#B5B5B7" />
     </svg>
   );
 };
