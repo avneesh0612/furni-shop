@@ -9,7 +9,7 @@ const HeroHome = () => {
       <div className="flex items-center w-full mx-10">
         <div className="z-20 flex items-center justify-center  flex-col -mr-44 w-[40vw] py-40 bg-white/40 backdrop-blur-3xl">
           <div className="w-9/12">
-            <h2 className="text-6xl font-bold text-[#244D4D]">
+            <h2 className="text-6xl font-bold text-sapGreen-600">
               We Help You Make Modern Interior
             </h2>
             <p className="mt-10">

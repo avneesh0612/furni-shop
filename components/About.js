@@ -6,14 +6,14 @@ const About = () => {
     <div className="flex flex-col justify-between w-full p-20">
       <div className="flex items-center justify-between w-full">
         <div className="flex flex-col">
-          <h2 className="text-5xl font-bold  text-[#244D4D]">About Us</h2>
-          <p className="text-[#5F5F64] font-OpenSans mt-2">
+          <h2 className="text-5xl font-bold text-sapGreen-600">About Us</h2>
+          <p className="mt-2 text-gray-500 font-OpenSans">
             At Besnik Consultancy, we take pride in our values <br /> – service,
             integrity, and excellence.
           </p>
         </div>
 
-        <button className="px-6 py-3 text-[#5F5F64] bg-[#F4F6F6]  rounded-md button-boxshadow">
+        <button className="px-6 py-3 text-gray-500 bg-gray-200  rounded-md button-boxshadow">
           Learn more
         </button>
       </div>
@@ -30,7 +30,7 @@ const About = () => {
             <AboutCard
               number={2}
               title="What Do We Do"
-              desc="You get a 2-week free trial to kick the Smarty tries. We want you to."
+              desc="We give you a free course that guides you through the process."
             />
           </div>
 
@@ -38,13 +38,13 @@ const About = () => {
             <AboutCard
               number={3}
               title="How Do We Help"
-              desc="You get a 2-week free trial to kick the Smarty tries. We want you to."
+              desc="Use our multimedia lecturers, videos, and coaching sessions."
             />
 
             <AboutCard
               number={4}
               title="Create success story"
-              desc="You get a 2-week free trial to kick the Smarty tries. We want you to."
+              desc="With access to online learning resources anyone can transform."
             />
           </div>
         </div>

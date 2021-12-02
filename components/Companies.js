@@ -10,7 +10,7 @@ const Companies = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col justify-between items-center py-10 mt-20  bg-[#F4F6F6]">
+    <div className="flex flex-col items-center justify-between w-full py-10 mt-20 bg-gray-200">
       <h2 className="text-[#031725] text-xl font-medium">
         TRUSTED BY OVER 1K+ COMPANIES
       </h2>

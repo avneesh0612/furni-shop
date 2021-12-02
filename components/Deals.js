@@ -6,13 +6,13 @@ const Deals = () => {
     <div className="flex justify-between w-full p-20">
       <div className="flex flex-col">
         <div className="flex items-center">
-          <h3 className="text-5xl font-bold text-[#244D4D]">Hot</h3>
+          <h3 className="text-5xl font-bold text-sapGreen-600">Hot</h3>
           <FireIcon className="w-16 h-16" />
         </div>
-        <h3 className="text-5xl font-bold text-[#244D4D] -mt-3">
+        <h3 className="text-5xl font-bold text-sapGreen-600 -mt-3">
           deals for you
         </h3>
-        <p className="text-[#5F5F64] font-OpenSans mt-2">
+        <p className="text-gray-500 font-OpenSans mt-2">
           Online shopping for retail sales direct to consumers.
         </p>
       </div>
