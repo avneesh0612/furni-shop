@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Clients from "../components/Clients";
 import Companies from "../components/Companies";
 import Deals from "../components/Deals";
 import Footer from "../components/Footer";
@@ -16,6 +17,7 @@ export default function Home() {
       <Companies />
       <Deals />
       <About />
+      <Clients />
       <Footer />
     </div>
   );
