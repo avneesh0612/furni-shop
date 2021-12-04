@@ -204,7 +204,7 @@ export const DocIcon = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={className}
     >
-      <g clip-path="url(#clip0_85_441)" filter="url(#filter0_d_85_441)">
+      <g clipPath="url(#clip0_85_441)" filter="url(#filter0_d_85_441)">
         <path
           d="M37.0933 29.7723L35.4942 29.531L34.7879 28.1011C34.4611 27.4474 33.7763 27.0427 33 27.0427C32.2237 27.0427 31.5389 27.4474 31.2102 28.105L30.5059 29.531L28.8892 29.7742C28.1616 29.8968 27.5429 30.4259 27.3153 31.1185C27.0702 31.8462 27.2745 32.6555 27.8173 33.1593L28.9612 34.2896L28.6908 35.8713C28.5682 36.6008 28.8796 37.3577 29.4807 37.7934C30.1332 38.2771 30.9977 38.2795 31.5624 37.9569L33 37.2177L34.3949 37.9336C35.0703 38.3261 35.9329 38.2534 36.5136 37.7974C37.1206 37.3577 37.4318 36.6009 37.3092 35.8694L37.0388 34.2897L38.1614 33.1808C38.7255 32.6555 38.9298 31.8462 38.6866 31.1244C38.4571 30.426 37.8384 29.8968 37.0933 29.7723ZM43.8774 14.5941L39.3551 12.602L37.3629 8.07962C37.2434 8.01992 37.1238 8 36.9844 8H23.0391C22.7602 8 22.5211 8.11953 22.3419 8.29876C22.1625 8.47813 22.043 8.71719 22.043 8.99609V21.0156C22.043 21.5517 22.5102 22.0117 23.0391 22.0117H26.4059L28.1191 25.4382C28.3202 25.8003 28.6129 25.9961 29.0156 25.9961H42.9609C43.497 25.9961 43.957 25.5289 43.957 25V14.9727C43.957 14.8332 43.9371 14.7137 43.8774 14.5941Z"
           fill="#FFDCDC"
@@ -222,9 +222,9 @@ export const DocIcon = ({ className }) => {
           width="70"
           height="70"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -257,8 +257,8 @@ export const DocIcon = ({ className }) => {
           y2="8.07959"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FF6060" />
-          <stop offset="1" stop-color="#FF9A9A" />
+          <stop stopColor="#FF6060" />
+          <stop offset="1" stopColor="#FF9A9A" />
         </linearGradient>
         <clipPath id="clip0_85_441">
           <rect
@@ -269,6 +269,121 @@ export const DocIcon = ({ className }) => {
           />
         </clipPath>
       </defs>
+    </svg>
+  );
+};
+
+export const StarIcon = ({ className }) => {
+  return (
+    <svg
+      width="66"
+      height="66"
+      viewBox="0 0 66 66"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g clip-path="url(#clip0_85_435)" filter="url(#filter0_d_85_435)">
+        <path
+          d="M47.9218 19.5077C47.7254 18.9002 47.1866 18.4688 46.5492 18.4113L37.8903 17.6251L34.4664 9.61106C34.2139 9.02374 33.639 8.64355 33.0002 8.64355C32.3613 8.64355 31.7864 9.02374 31.5339 9.61244L28.11 17.6251L19.4498 18.4113C18.8135 18.4702 18.276 18.9002 18.0785 19.5077C17.881 20.1152 18.0634 20.7815 18.5447 21.2015L25.0898 26.9415L23.1598 35.4431C23.0186 36.0682 23.2612 36.7143 23.7799 37.0893C24.0587 37.2907 24.3848 37.3932 24.7137 37.3932C24.9973 37.3932 25.2786 37.3168 25.5311 37.1657L33.0002 32.7017L40.4665 37.1657C41.0128 37.4944 41.7015 37.4644 42.2191 37.0893C42.738 36.7132 42.9803 36.0668 42.8391 35.4431L40.9091 26.9415L47.4542 21.2026C47.9355 20.7815 48.1193 20.1163 47.9218 19.5077V19.5077Z"
+          fill="url(#paint0_linear_85_435)"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_85_435"
+          x="0"
+          y="0"
+          width="66"
+          height="66"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dy="10" />
+          <feGaussianBlur stdDeviation="9" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_85_435"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_85_435"
+            result="shape"
+          />
+        </filter>
+        <linearGradient
+          id="paint0_linear_85_435"
+          x1="33"
+          y1="8.64355"
+          x2="33"
+          y2="37.3932"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFE38D" />
+          <stop offset="1" stop-color="#FFCD38" />
+        </linearGradient>
+        <clipPath id="clip0_85_435">
+          <rect
+            width="30"
+            height="30"
+            fill="white"
+            transform="translate(18 8)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+
+export const ArrowRightIcon = ({ className }) => {
+  return (
+    <svg
+      width="15"
+      height="13"
+      viewBox="0 0 15 13"
+      className={className}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M9.75736 11.8033L14.5303 7.03037C14.8232 6.73748 14.8232 6.2626 14.5303 5.96971L9.75736 1.19674C9.46447 0.903845 8.98959 0.903845 8.6967 1.19674C8.40381 1.48963 8.40381 1.96451 8.6967 2.2574L12.1893 5.75004H1C0.585786 5.75004 0.25 6.08583 0.25 6.50004C0.25 6.91425 0.585786 7.25004 1 7.25004H12.1893L8.6967 10.7427C8.40381 11.0356 8.40381 11.5104 8.6967 11.8033C8.98959 12.0962 9.46447 12.0962 9.75736 11.8033Z"
+        fill="#152137"
+      />
+    </svg>
+  );
+};
+
+export const ArrowLeftIcon = ({ className }) => {
+  return (
+    <svg
+      width="15"
+      height="13"
+      viewBox="0 0 15 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M5.24264 11.8033L0.46967 7.03037C0.176777 6.73748 0.176777 6.2626 0.46967 5.96971L5.24264 1.19674C5.53553 0.903845 6.01041 0.903845 6.3033 1.19674C6.59619 1.48963 6.59619 1.96451 6.3033 2.2574L2.81066 5.75004H14C14.4142 5.75004 14.75 6.08583 14.75 6.50004C14.75 6.91425 14.4142 7.25004 14 7.25004H2.81066L6.3033 10.7427C6.59619 11.0356 6.59619 11.5104 6.3033 11.8033C6.01041 12.0962 5.53553 12.0962 5.24264 11.8033Z"
+        fill="#152137"
+      />
     </svg>
   );
 };
