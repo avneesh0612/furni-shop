@@ -283,7 +283,7 @@ export const StarIcon = ({ className }) => {
       className={className}
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_85_435)" filter="url(#filter0_d_85_435)">
+      <g clipPath="url(#clip0_85_435)" filter="url(#filter0_d_85_435)">
         <path
           d="M47.9218 19.5077C47.7254 18.9002 47.1866 18.4688 46.5492 18.4113L37.8903 17.6251L34.4664 9.61106C34.2139 9.02374 33.639 8.64355 33.0002 8.64355C32.3613 8.64355 31.7864 9.02374 31.5339 9.61244L28.11 17.6251L19.4498 18.4113C18.8135 18.4702 18.276 18.9002 18.0785 19.5077C17.881 20.1152 18.0634 20.7815 18.5447 21.2015L25.0898 26.9415L23.1598 35.4431C23.0186 36.0682 23.2612 36.7143 23.7799 37.0893C24.0587 37.2907 24.3848 37.3932 24.7137 37.3932C24.9973 37.3932 25.2786 37.3168 25.5311 37.1657L33.0002 32.7017L40.4665 37.1657C41.0128 37.4944 41.7015 37.4644 42.2191 37.0893C42.738 36.7132 42.9803 36.0668 42.8391 35.4431L40.9091 26.9415L47.4542 21.2026C47.9355 20.7815 48.1193 20.1163 47.9218 19.5077V19.5077Z"
           fill="url(#paint0_linear_85_435)"
@@ -297,9 +297,9 @@ export const StarIcon = ({ className }) => {
           width="66"
           height="66"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -332,8 +332,8 @@ export const StarIcon = ({ className }) => {
           y2="37.3932"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFE38D" />
-          <stop offset="1" stop-color="#FFCD38" />
+          <stop stopColor="#FFE38D" />
+          <stop offset="1" stopColor="#FFCD38" />
         </linearGradient>
         <clipPath id="clip0_85_435">
           <rect
@@ -359,8 +359,8 @@ export const ArrowRightIcon = ({ className }) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M9.75736 11.8033L14.5303 7.03037C14.8232 6.73748 14.8232 6.2626 14.5303 5.96971L9.75736 1.19674C9.46447 0.903845 8.98959 0.903845 8.6967 1.19674C8.40381 1.48963 8.40381 1.96451 8.6967 2.2574L12.1893 5.75004H1C0.585786 5.75004 0.25 6.08583 0.25 6.50004C0.25 6.91425 0.585786 7.25004 1 7.25004H12.1893L8.6967 10.7427C8.40381 11.0356 8.40381 11.5104 8.6967 11.8033C8.98959 12.0962 9.46447 12.0962 9.75736 11.8033Z"
         fill="#152137"
       />
@@ -379,8 +379,8 @@ export const ArrowLeftIcon = ({ className }) => {
       className={className}
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M5.24264 11.8033L0.46967 7.03037C0.176777 6.73748 0.176777 6.2626 0.46967 5.96971L5.24264 1.19674C5.53553 0.903845 6.01041 0.903845 6.3033 1.19674C6.59619 1.48963 6.59619 1.96451 6.3033 2.2574L2.81066 5.75004H14C14.4142 5.75004 14.75 6.08583 14.75 6.50004C14.75 6.91425 14.4142 7.25004 14 7.25004H2.81066L6.3033 10.7427C6.59619 11.0356 6.59619 11.5104 6.3033 11.8033C6.01041 12.0962 5.53553 12.0962 5.24264 11.8033Z"
         fill="#152137"
       />
