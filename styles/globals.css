@@ -25,3 +25,19 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #244d4d !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f4f6f6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #eeeeee;
+}

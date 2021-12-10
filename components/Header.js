@@ -60,7 +60,7 @@ const Header = () => {
           Contact
         </a>
       </div>
-      <div className="flex">
+      <div className="hidden sm:flex">
         <SearchIcon className="w-5 h-5 mr-4" />
         <MoreIcon className="w-5 h-5 ml-4" />
       </div>
