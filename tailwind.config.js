@@ -1,7 +1,8 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -13,7 +14,6 @@ module.exports = {
           600: "#64717C",
           700: "#3D3D3F",
         },
-
         sapGreen: {
           100: "#3A5F5F",
           600: "#244D4D",
@@ -25,9 +25,6 @@ module.exports = {
         Inter: ["Inter", "sans-serif"],
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };

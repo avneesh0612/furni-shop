@@ -1,9 +1,31 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import { MoreIcon, SearchIcon } from "./icons";
 
 const Header = () => {
+  const [animateHeader, setAnimatedHeader] = useState(false);
+
+  useEffect(() => {
+    const listener = () => {
+      if (window.scrollY > 50) {
+        setAnimatedHeader(true);
+      } else setAnimatedHeader(false);
+    };
+    window.addEventListener("scroll", listener);
+
+    return () => {
+      window.removeEventListener("scroll", listener);
+    };
+  }, []);
+
   return (
-    <nav className="flex items-center justify-between w-full px-32 py-5">
+    <nav
+      className={`fixed ${
+        animateHeader
+          ? "bg-white/30 backdrop-blur-xl shadow-xl duration-100"
+          : ""
+      } top-0 z-50 flex items-center justify-between w-full px-32 py-5`}
+    >
       <Image
         src="/logo.svg"
         alt="logo"
@@ -13,16 +35,28 @@ const Header = () => {
         objectFit="contain"
       />
       <div className="flex w-3/5 justify-evenly">
-        <a className="text-lg font-medium cursor-pointer hover:underline font-Montserrat">
+        <a
+          href="#home"
+          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
+        >
           Home
         </a>
-        <a className="text-lg font-medium cursor-pointer hover:underline font-Montserrat">
+        <a
+          href="#about"
+          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
+        >
           About
         </a>
-        <a className="text-lg font-medium cursor-pointer hover:underline font-Montserrat">
+        <a
+          href="#features"
+          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
+        >
           Features
         </a>
-        <a className="text-lg font-medium cursor-pointer hover:underline font-Montserrat">
+        <a
+          href="#contact"
+          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
+        >
           Contact
         </a>
       </div>

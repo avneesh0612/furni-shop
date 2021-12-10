@@ -1,6 +1,6 @@
 const Product = ({ price, discountedPrice, image, name }) => {
   return (
-    <div className="relative flex flex-col items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center mx-5 mt-10">
       <div className="bg-[#F4F6F6] w-80 h-80 p-10 flex flex-col items-start">
         <h2 className="text-2xl font-OpenSans text-[#3D3D3F]">{name}</h2>
         <div className="flex items-center mt-5">

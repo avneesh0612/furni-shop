@@ -1,12 +1,12 @@
 import Header from "./Header";
 import Image from "next/image";
-import { ArrowDownIcon, ArrowDownSideIcon, ArrowUpIcon } from "./icons";
+import { ArrowDownIcon } from "./icons";
 
 const HeroHome = () => {
   return (
-    <div className="relative flex flex-col w-full h-screen">
+    <div id="home" className="relative flex flex-col w-full h-screen">
       <Header />
-      <div className="flex items-center w-full mx-10">
+      <div className="flex items-center w-full mx-10 mt-20">
         <div className="z-20 flex items-center justify-center  flex-col -mr-44 w-[40vw] py-40 bg-white/40 backdrop-blur-3xl">
           <div className="w-9/12">
             <h2 className="text-6xl font-bold text-sapGreen-600">
@@ -23,6 +23,7 @@ const HeroHome = () => {
             layout="fill"
             objectFit="contain"
             src="https://res.cloudinary.com/didkcszrq/image/upload/v1638275638/Mask_Group_p1hclc.png"
+            alt=""
           />
         </div>
         <div className="absolute z-20 flex items-center justify-center w-32 h-32 -bottom-4 bg-white/40 backdrop-blur-3xl right-20">

@@ -21,3 +21,7 @@ body {
     0px 8.14815px 6.51852px rgba(36, 77, 77, 0.0392593),
     0px 1.85185px 3.14815px rgba(36, 77, 77, 0.0240741);
 }
+
+html {
+  scroll-behavior: smooth;
+}

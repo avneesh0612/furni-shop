@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col w-full p-20 bg-sapGreen-600">
+    <div id="contact" className="flex flex-col w-full p-20 bg-sapGreen-600">
       <div className="flex justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
         <h3 className="w-[56%] text-5xl font-medium text-white font-OpenSans">
           Start your business today for $0+ state fees.
