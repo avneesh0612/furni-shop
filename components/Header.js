@@ -34,7 +34,7 @@ const Header = () => {
         height={37}
         objectFit="contain"
       />
-      <div className="flex w-3/5 justify-evenly">
+      <div className="hidden w-3/5 sm:flex justify-evenly">
         <a
           href="#home"
           className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"

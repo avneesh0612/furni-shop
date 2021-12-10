@@ -16,9 +16,10 @@ export const SearchIcon = ({ className }) => {
   );
 };
 
-export const MoreIcon = ({ className }) => {
+export const MoreIcon = ({ className, onClick }) => {
   return (
     <svg
+      onClick={onClick}
       width="19"
       height="14"
       viewBox="0 0 19 14"

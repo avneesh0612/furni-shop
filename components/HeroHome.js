@@ -4,10 +4,10 @@ import { ArrowDownIcon } from "./icons";
 
 const HeroHome = () => {
   return (
-    <div id="home" className="relative flex flex-col w-full h-screen">
+    <div id="home" className="relative flex flex-col w-full md:h-screen">
       <Header />
-      <div className="flex items-center w-full mx-10 mt-20">
-        <div className="z-20 flex items-center justify-center  flex-col -mr-44 w-[40vw] py-40 bg-white/40 backdrop-blur-3xl">
+      <div className="flex items-center w-full mt-20 sm:mx-10">
+        <div className="z-20 hidden sm:flex items-center justify-center  flex-col -mr-44 w-[40vw] py-40 bg-white/40 backdrop-blur-3xl">
           <div className="w-9/12">
             <h2 className="text-6xl font-bold text-sapGreen-600">
               We Help You Make Modern Interior
@@ -18,15 +18,19 @@ const HeroHome = () => {
             </p>
           </div>
         </div>
-        <div className="relative z-10 w-[991px] h-[700px]">
+        <div className="relative !w-screen  h-[300px] flex items-center justify-center z-10 md:w-[991px] md:h-[700px]">
           <Image
             layout="fill"
             objectFit="contain"
+            className="absolute inset-0 z-10"
             src="https://res.cloudinary.com/didkcszrq/image/upload/v1638275638/Mask_Group_p1hclc.png"
             alt=""
           />
+          <h2 className="z-40 flex text-2xl w-[60vw] py-5 px-10 font-bold text-center md:hidden md:absolute bg-white/60 backdrop-blur-3xl text-sapGreen-600">
+            We Help You Make Modern Interior
+          </h2>
         </div>
-        <div className="absolute z-20 flex items-center justify-center w-32 h-32 -bottom-4 bg-white/40 backdrop-blur-3xl right-20">
+        <div className="absolute z-20 items-center justify-center hidden w-32 h-32 sm:flex -bottom-4 bg-white/40 backdrop-blur-3xl right-20">
           <ArrowDownIcon className="w-8 h-16 text-white" />
         </div>
       </div>

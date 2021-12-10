@@ -3,11 +3,11 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div id="contact" className="flex flex-col w-full p-20 bg-sapGreen-600">
-      <div className="flex justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
+      <div className="flex flex-col sm:flex-row justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
         <h3 className="w-[56%] text-5xl font-medium text-white font-OpenSans">
           Start your business today for $0+ state fees.
         </h3>
-        <div className="flex items-center space-x-3">
+        <div className="flex flex-col items-center space-x-3 sm:flex-row">
           <button className="px-8 py-2 font-medium bg-gray-100 rounded-full text-sapGreen-600 font-Inter">
             Get Started
           </button>
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-between w-full pr-10 mt-20 ml-2">
+      <div className="flex flex-col justify-between w-full p-10 mt-20 ml-2 sm:flex-row">
         <div className="flex flex-col items-start">
           <Image
             src="/logo-white.svg"
