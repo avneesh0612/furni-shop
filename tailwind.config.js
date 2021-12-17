@@ -23,6 +23,7 @@ module.exports = {
         Montserrat: ["Montserrat", "sans-serif"],
         OpenSans: ["Open Sans", "sans-serif"],
         Inter: ["Inter", "sans-serif"],
+        Noto: ["Noto Serif JP", "serif"],
       },
     },
   },

@@ -11,19 +11,19 @@ const Companies = () => {
 
   return (
     <div className="flex flex-col items-center justify-between w-full py-10 mt-20 bg-gray-200">
-      <h2 className="text-[#031725] text-xl font-medium">
+      <h2 className="text-[#031725] text-lg text-center sm:text-xl font-medium">
         TRUSTED BY OVER 1K+ COMPANIES
       </h2>
-      <div className="flex items-center justify-between w-9/12 mt-10">
+      <div className="flex items-center flex-wrap justify-between w-9/12 mt-10">
         {companies.map((company) => (
-          <Image
-            key={company}
-            src={`/logos/${company}.svg`}
-            width={116}
-            height={25}
-            objectFit="contain"
-            alt={company}
-          />
+          <div className="relative sm:w-28 m-3 sm:h-6 w-24 h-5" key={company}>
+            <Image
+              src={`/logos/${company}.svg`}
+              layout="fill"
+              objectFit="contain"
+              alt={company}
+            />
+          </div>
         ))}
       </div>
     </div>

@@ -6,10 +6,19 @@ const HeroHome = () => {
   return (
     <div id="home" className="relative flex flex-col w-full md:h-screen">
       <Header />
-      <div className="flex items-center w-full mt-20 sm:mx-10">
-        <div className="z-20 hidden sm:flex items-center justify-center  flex-col -mr-44 w-[40vw] py-40 bg-white/40 backdrop-blur-3xl">
+      <div className="flex items-center w-full mt-20 sm:mx-10 relative">
+        <div className="sm:w-32 sm:h-32 z-30 absolute top-10 left-10">
+          <Image
+            src="/DOTS.svg"
+            alt="Hero Home"
+            layout="fill"
+            className="w-full h-full"
+          />
+        </div>
+
+        <div className="z-20 hidden sm:flex items-center justify-center  flex-col  -mr-56 w-[50vw] py-32 bg-white/40 backdrop-blur-3xl">
           <div className="w-9/12">
-            <h2 className="text-6xl font-bold text-sapGreen-600">
+            <h2 className="text-6xl font-bold font-Noto text-sapGreen-600">
               We Help You Make Modern Interior
             </h2>
             <p className="mt-10">

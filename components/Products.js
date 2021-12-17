@@ -2,21 +2,20 @@ import Product from "./Product";
 
 const Products = () => {
   return (
-    <div className="flex flex-col w-full px-20">
+    <div className="flex flex-col w-full px-10 sm:px-20">
       <div className="flex items-center justify-between w-full">
         <h2 className="text-5xl text-[#244D4D] font-semibold">Products</h2>
         <div className="flex">
           <p>See All</p>
         </div>
       </div>
-      <div className="flex flex-wrap items-center w-full justify-evenly">
+      <div className="flex sm:flex-wrap hidescrollbar flex-row overflow-scroll items-center w-screen sm:w-full sm:justify-evenly">
         <Product
           name="Hand Base Lamp"
           discountedPrice={35}
           price={55}
           image="https://res.cloudinary.com/didkcszrq/image/upload/v1638677397/Image_vvp5wm.png"
         />
-
         <Product
           name="Vintage Chair"
           discountedPrice={65}
