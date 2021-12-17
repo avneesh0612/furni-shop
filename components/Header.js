@@ -24,7 +24,7 @@ const Header = () => {
         animateHeader
           ? "bg-white/30 backdrop-blur-xl shadow-xl duration-100"
           : ""
-      } top-0 z-50 flex items-center justify-between w-full px-32 py-5`}
+      } top-0 z-50 flex items-center justify-between w-screen px-10 sm:px-32 py-5`}
     >
       <Image
         src="/logo.svg"

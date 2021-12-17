@@ -9,7 +9,7 @@ const Products = () => {
           <p>See All</p>
         </div>
       </div>
-      <div className="flex sm:flex-wrap hidescrollbar flex-row overflow-scroll items-center w-screen sm:w-full sm:justify-evenly">
+      <div className="flex sm:flex-wrap hidescrollbar flex-row overflow-scroll items-center w-full sm:justify-evenly">
         <Product
           name="Hand Base Lamp"
           discountedPrice={35}
