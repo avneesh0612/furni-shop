@@ -15,8 +15,8 @@ const Clients = () => {
             What our happy client say
           </h2>
           <p className="text-lg font-OpenSans text-[#3A4F65] mt-4 max-w-[450px]">
-            File storage made easy – including powerful features you won’t find
-            anywhere else. Whether you’re.
+            Furniture is a very important part of a home and furni shop is the
+            best place to find it.
           </p>
         </div>
         <DocIcon className="absolute z-20 flex items-center justify-center w-16 h-16 pt-3 rounded-full shadow-lg md:top-20 md:right-40 right-5 top-5" />
@@ -26,7 +26,7 @@ const Clients = () => {
         <Client
           image="https://res.cloudinary.com/didkcszrq/image/upload/v1638605651/Client_ey2glu.png"
           name="Larry Diamond"
-          feedback="File storage made easy – including powerful features you won’t find anywhere else. Whether you’re."
+          feedback="Furniture is a very important part of a home and furni shop is the best place to find it."
           role="Chief Executive Officer"
         />
       </div>

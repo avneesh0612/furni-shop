@@ -8,7 +8,7 @@ const Footer = () => {
     >
       <div className="flex flex-col sm:flex-row justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
         <h3 className="md:w-[56%] text-center md:text-left w-full md:text-5xl text-3xl font-medium text-white font-Montserrat">
-          Start your business today for $0+ state fees.
+          Make your house look amazing with our furniture today!
         </h3>
         <div className="flex items-center mt-5 space-x-3 md:mt-0">
           <button className="px-8 py-2 font-medium bg-gray-100 rounded-full text-sapGreen-600 font-Inter">
@@ -31,8 +31,7 @@ const Footer = () => {
             objectFit="contain"
           />
           <p className="text-white text-OpenSans max-w-[250px] mt-5">
-            Optix seamlessly connects your members with the community,
-            resources.
+            Helping you make modern interior.
           </p>
         </div>
         <div className="flex flex-col items-start mt-8 space-y-3 md:mt-0">

@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex flex-col">
           <h2 className="text-5xl font-bold text-sapGreen-600">About Us</h2>
           <p className="mt-2 text-gray-500 font-OpenSans">
-            At Besnik Consultancy, we take pride in our values <br /> – service,
+            At Furni shop, we take pride in our values <br /> – service,
             integrity, and excellence.
           </p>
         </div>
@@ -26,14 +26,14 @@ const About = () => {
           <div className="flex flex-col space-y-10 md:space-x-2 md:flex-row md:space-y-0 ">
             <AboutCard
               number={1}
-              title="Who We Are"
-              desc="You get a 2-week free trial to kick the Smarty tries. We want you to."
+              title="Who We Are?"
+              desc="We make furniture suitable for the humans of 2021"
             />
 
             <AboutCard
               number={2}
-              title="What Do We Do"
-              desc="We give you a free course that guides you through the process."
+              title="What Do We Do?"
+              desc="We give you the best, modern furniture at the best prices."
             />
           </div>
 
@@ -41,13 +41,13 @@ const About = () => {
             <AboutCard
               number={3}
               title="How Do We Help"
-              desc="Use our multimedia lecturers, videos, and coaching sessions."
+              desc="We are going to make the world a better place."
             />
 
             <AboutCard
               number={4}
               title="Create success story"
-              desc="With access to online learning resources anyone can transform."
+              desc="Big companies use our products."
             />
           </div>
         </div>

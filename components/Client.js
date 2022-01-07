@@ -3,7 +3,7 @@ import { ArrowLeftIcon, ArrowRightIcon, StarIcon } from "./icons";
 
 const Client = ({ image, name, role, feedback }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col md:flex-row">
       <div className="relative flex">
         <img className="object-contain w-80 h-96" src={image} alt={name} />
 
