@@ -10,7 +10,7 @@ const Footer = () => {
         <h3 className="md:w-[56%] text-center md:text-left w-full md:text-5xl text-3xl font-medium text-white font-Montserrat">
           Start your business today for $0+ state fees.
         </h3>
-        <div className="flex items-center mt-5 space-x-3 md:flex-col sm:flex-row md:mt-0">
+        <div className="flex items-center mt-5 space-x-3 md:mt-0">
           <button className="px-8 py-2 font-medium bg-gray-100 rounded-full text-sapGreen-600 font-Inter">
             Get Started
           </button>
