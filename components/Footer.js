@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col w-full p-5 py-20 md:p-20 bg-sapGreen-600"
+      className="flex flex-col w-full p-5 py-20 scroll-m-20 md:p-20 bg-sapGreen-600"
     >
       <div className="flex flex-col sm:flex-row justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
         <h3 className="md:w-[56%] text-center md:text-left w-full md:text-5xl text-3xl font-medium text-white font-Montserrat">

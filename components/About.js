@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col justify-between w-full p-10 md:p-20"
+      className="flex flex-col scroll-m-20 justify-between w-full p-10 md:p-20"
     >
       <div className="flex items-center justify-between w-full">
         <div className="flex flex-col">

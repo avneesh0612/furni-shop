@@ -2,14 +2,17 @@ import Product from "./Product";
 
 const Products = () => {
   return (
-    <div className="flex flex-col w-full px-10 sm:px-20">
+    <div
+      id="products"
+      className="flex flex-col w-full px-10 scroll-m-20 sm:px-20"
+    >
       <div className="flex items-center justify-between w-full">
         <h2 className="text-5xl text-[#244D4D] font-semibold">Products</h2>
         <div className="flex">
           <p>See All</p>
         </div>
       </div>
-      <div className="flex sm:flex-wrap hidescrollbar flex-row overflow-scroll items-center w-full sm:justify-evenly">
+      <div className="flex flex-row items-center w-full overflow-scroll sm:flex-wrap hidescrollbar sm:justify-evenly">
         <Product
           name="Hand Base Lamp"
           discountedPrice={35}

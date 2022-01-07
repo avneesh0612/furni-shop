@@ -4,6 +4,11 @@ import { MoreIcon, SearchIcon } from "./icons";
 
 const Header = () => {
   const [animateHeader, setAnimatedHeader] = useState(false);
+  const [show, setShow] = useState(false);
+
+  const handleShow = () => {
+    setShow(!show);
+  };
 
   useEffect(() => {
     const listener = () => {
@@ -17,6 +22,25 @@ const Header = () => {
       window.removeEventListener("scroll", listener);
     };
   }, []);
+
+  const items = [
+    {
+      name: "Home",
+      href: "",
+    },
+    {
+      name: "About",
+      href: "about",
+    },
+    {
+      name: "Products",
+      href: "products",
+    },
+    {
+      name: "Contact",
+      href: "contact",
+    },
+  ];
 
   return (
     <nav
@@ -35,35 +59,39 @@ const Header = () => {
         objectFit="contain"
       />
       <div className="hidden w-3/5 sm:flex justify-evenly">
-        <a
-          href="#home"
-          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
-        >
-          Home
-        </a>
-        <a
-          href="#about"
-          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
-        >
-          About
-        </a>
-        <a
-          href="#features"
-          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
-        >
-          Features
-        </a>
-        <a
-          href="#contact"
-          className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
-        >
-          Contact
-        </a>
+        {items.map((item, i) => (
+          <a
+            key={i}
+            href={`#${item.href}`}
+            className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
+          >
+            {item.name}
+          </a>
+        ))}
       </div>
-      <div className="hidden sm:flex">
-        <SearchIcon className="w-5 h-5 mr-4" />
-        <MoreIcon className="w-5 h-5 ml-4" />
+      <div className="flex">
+        <SearchIcon className="hidden w-5 h-5 mr-4 md:flex" />
+        <MoreIcon
+          onClick={handleShow}
+          className="flex w-5 h-5 ml-4 md:hidden"
+        />
       </div>
+      {show && (
+        <div className="absolute z-50 p-10 bg-white rounded-lg shadow-xl top-16 right-5">
+          <div className="flex flex-col items-center justify-center w-full">
+            {items.map((item, i) => (
+              <a
+                onClick={handleShow}
+                key={i}
+                href={`#${item.href}`}
+                className="text-lg font-medium cursor-pointer hover:underline font-Montserrat"
+              >
+                {item.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
     </nav>
   );
 };
