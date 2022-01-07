@@ -7,7 +7,7 @@ const AboutCard = ({ number, title, desc }) => {
       <h3 className="text-3xl font-bold font-OpenSans text-sapGreen-600">
         {title}.
       </h3>
-      <p className="text-gray-600 font-OpenSans">{desc}.</p>
+      <p className="text-gray-600 font-OpenSans">{desc}</p>
     </div>
   );
 };

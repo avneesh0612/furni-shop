@@ -2,12 +2,16 @@ import Image from "next/image";
 
 const Deal = ({ title, icon, description }) => {
   return (
-    <div className="flex flex-col items-start space-y-4">
+    <div className="flex items-start my-8 md:space-y-4 md:flex-col md:my-0">
       <Image src={icon} width={32} height={35} alt="deal" />
-      <h4 className="text-xl font-gray-700bold text- font-OpenSans ">
-        {title}
-      </h4>
-      <p className="text-gray-700 font-OpenSans max-w-[200px]">{description}</p>
+      <div className="flex flex-col ml-2 -mt-2 md:-mt-0 sm:ml-0">
+        <h4 className="text-xl font-bold text-gray-700 font-OpenSans">
+          {title}
+        </h4>
+        <p className="text-gray-700 font-OpenSans max-w-[200px]">
+          {description}
+        </p>
+      </div>
     </div>
   );
 };

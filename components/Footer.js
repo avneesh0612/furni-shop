@@ -2,12 +2,15 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div id="contact" className="flex flex-col w-full p-20 bg-sapGreen-600">
+    <div
+      id="contact"
+      className="flex flex-col w-full p-5 py-20 md:p-20 bg-sapGreen-600"
+    >
       <div className="flex flex-col sm:flex-row justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
-        <h3 className="w-[56%] text-5xl font-medium text-white font-OpenSans">
+        <h3 className="md:w-[56%] text-center md:text-left w-full md:text-5xl text-3xl font-medium text-white font-Montserrat">
           Start your business today for $0+ state fees.
         </h3>
-        <div className="flex flex-col items-center space-x-3 sm:flex-row">
+        <div className="flex items-center mt-5 space-x-3 md:flex-col sm:flex-row md:mt-0">
           <button className="px-8 py-2 font-medium bg-gray-100 rounded-full text-sapGreen-600 font-Inter">
             Get Started
           </button>
@@ -32,7 +35,7 @@ const Footer = () => {
             resources.
           </p>
         </div>
-        <div className="flex flex-col items-start space-y-3">
+        <div className="flex flex-col items-start mt-8 space-y-3 md:mt-0">
           <h4 className="text-lg font-semibold text-white text-OpenSans">
             Entity types
           </h4>
@@ -44,7 +47,7 @@ const Footer = () => {
           <p className="text-gray-300 font-Inter">FAQs</p>
         </div>
 
-        <div className="flex flex-col items-start space-y-3">
+        <div className="flex flex-col items-start mt-8 space-y-3 md:mt-0">
           <h4 className="text-lg font-semibold text-white text-OpenSans">
             Services
           </h4>
@@ -56,7 +59,7 @@ const Footer = () => {
           <p className="text-gray-300 font-Inter">Help Center</p>
         </div>
 
-        <div className="flex flex-col items-start space-y-3">
+        <div className="flex flex-col items-start mt-8 space-y-3 md:mt-0">
           <h4 className="text-lg font-semibold text-white text-OpenSans">
             Resources
           </h4>
@@ -67,7 +70,7 @@ const Footer = () => {
           <p className="text-gray-300 font-Inter">Terms</p>
         </div>
 
-        <div className="flex flex-col items-start space-y-3">
+        <div className="flex flex-col items-start mt-8 space-y-3 md:mt-0">
           <h4 className="text-lg font-semibold text-white text-OpenSans">
             Support
           </h4>

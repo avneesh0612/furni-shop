@@ -6,7 +6,7 @@ const Clients = () => {
   return (
     <div className="flex flex-col items-center justify-center overflow-hidden sm:mx-auto w-screen sm:w-[95vw] relative my-10 p-10 bg-gray-200 rounded-lg">
       <div className="flex w-full">
-        <div className="absolute -top-32 -left-32 w-80 h-80">
+        <div className="absolute hidden -top-32 -left-32 w-80 h-80 md:inline-flex">
           <Image src="/circle-pattern.svg" layout="fill" alt="circle pattern" />
         </div>
 
@@ -19,7 +19,7 @@ const Clients = () => {
             anywhere else. Whether you’re.
           </p>
         </div>
-        <DocIcon className="absolute z-20 flex items-center justify-center w-16 h-16 pt-3 rounded-full shadow-lg top-20 right-40" />
+        <DocIcon className="absolute z-20 flex items-center justify-center w-16 h-16 pt-3 rounded-full shadow-lg md:top-20 md:right-40 right-5 top-5" />
       </div>
 
       <div className="mt-20">

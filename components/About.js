@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div id="about" className="flex flex-col justify-between w-full p-20">
+    <div
+      id="about"
+      className="flex flex-col justify-between w-full p-10 md:p-20"
+    >
       <div className="flex items-center justify-between w-full">
         <div className="flex flex-col">
           <h2 className="text-5xl font-bold text-sapGreen-600">About Us</h2>
@@ -13,14 +16,14 @@ const About = () => {
           </p>
         </div>
 
-        <button className="px-6 py-3 text-gray-500 bg-gray-200  rounded-md button-boxshadow">
+        <button className="hidden px-6 py-3 text-gray-500 bg-gray-200 rounded-md md:flex button-boxshadow">
           Learn more
         </button>
       </div>
 
       <div className="flex justify-between">
-        <div className="flex flex-col w-1/2 mt-10 space-y-10">
-          <div className="flex space-x-2">
+        <div className="flex flex-col w-5/6 mt-10 space-y-10 md:w-1/2">
+          <div className="flex flex-col space-y-10 md:space-x-2 md:flex-row md:space-y-0 ">
             <AboutCard
               number={1}
               title="Who We Are"
@@ -34,7 +37,7 @@ const About = () => {
             />
           </div>
 
-          <div className="flex space-x-2">
+          <div className="flex flex-col space-y-10 md:space-x-2 md:flex-row md:space-y-0">
             <AboutCard
               number={3}
               title="How Do We Help"
@@ -48,7 +51,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="flex">
+        <div className="hidden md:flex">
           <div className="flex flex-col mt-10">
             <div className="mt-5">
               <Image

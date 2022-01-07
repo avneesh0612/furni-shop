@@ -3,14 +3,14 @@ import { ArrowLeftIcon, ArrowRightIcon, StarIcon } from "./icons";
 
 const Client = ({ image, name, role, feedback }) => {
   return (
-    <div className="flex">
+    <div className="flex flex-col">
       <div className="relative flex">
         <img className="object-contain w-80 h-96" src={image} alt={name} />
 
         <StarIcon className="absolute flex items-center justify-center w-16 h-16 pt-3 bg-white rounded-full shadow-lg -left-6 top-20" />
       </div>
 
-      <div className="flex flex-col items-start pt-4 ml-20">
+      <div className="flex flex-col items-center justify-center pt-4 md:ml-20 md:items-start">
         <Image
           src="/logo.svg"
           alt="logo"
@@ -19,7 +19,7 @@ const Client = ({ image, name, role, feedback }) => {
           height={37}
           objectFit="contain"
         />
-        <h3 className="max-w-[405px] my-8 text-[#5E7388] italic font-OpenSans font-semibold text-2xl">
+        <h3 className="md:max-w-[405px] max-w-[350px] my-8 text-[#5E7388] italic font-OpenSans font-semibold text-2xl">
           {feedback}
         </h3>
         <h4 className="text-[#152137] font-OpenSans font-medium text-xl">
