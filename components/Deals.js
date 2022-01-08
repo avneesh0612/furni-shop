@@ -3,15 +3,15 @@ import Deal from "./Deal";
 
 const Deals = () => {
   return (
-    <div className="flex flex-col justify-between w-full p-20 sm:flex-row">
+    <div className="flex flex-col justify-between w-full p-20 md:flex-row">
       <div className="flex flex-col">
         <div className="flex items-center">
-          <h3 className="sm:text-5xl text-xl  font-bold text-sapGreen-600">
+          <h3 className="md:text-5xl text-xl  font-bold text-sapGreen-600">
             Hot
           </h3>
-          <FireIcon className="sm:w-16 w-12 sm:h-16 h-12" />
+          <FireIcon className="md:w-16 w-12 md:h-16 h-12" />
         </div>
-        <h3 className="-mt-3 sm:text-5xl text-xl  font-bold text-sapGreen-600">
+        <h3 className="-mt-3 md:text-5xl text-xl  font-bold text-sapGreen-600">
           deals for you
         </h3>
         <p className="mt-2 text-gray-500 font-OpenSans">

@@ -4,10 +4,10 @@ import { ArrowDownIcon } from "./icons";
 
 const HeroHome = () => {
   return (
-    <div id="home" className="relative flex flex-col w-full md:h-screen">
+    <div id="home" className="relative flex flex-col w-full lg:h-screen">
       <Header />
-      <div className="relative flex items-center w-full mt-20 sm:mx-10">
-        <div className="absolute z-30 sm:w-32 sm:h-32 top-10 left-10">
+      <div className="relative flex items-center w-full mt-20 lg:mx-10">
+        <div className="absolute z-30 lg:w-32 lg:h-32 top-10 left-10">
           <Image
             src="/DOTS.svg"
             alt="Hero Home"
@@ -16,7 +16,7 @@ const HeroHome = () => {
           />
         </div>
 
-        <div className="z-20 hidden sm:flex items-center justify-center  flex-col  -mr-56 w-[50vw] py-32 bg-white/40 backdrop-blur-3xl">
+        <div className="z-20 hidden md:flex items-center justify-center  flex-col  -mr-56 w-[50vw] py-32 bg-white/40 backdrop-blur-3xl">
           <div className="w-9/12">
             <h2
               style={{ lineHeight: "70px" }}
@@ -30,7 +30,7 @@ const HeroHome = () => {
             </p>
           </div>
         </div>
-        <div className="relative !w-screen  h-[300px] flex items-center justify-center z-10 md:w-[991px] md:h-[700px]">
+        <div className="relative !w-screen sm:h-[510px]  h-[300px] flex items-center justify-center z-10 md:w-[991px] md:h-[700px]">
           <Image
             layout="fill"
             objectFit="contain"
@@ -42,7 +42,7 @@ const HeroHome = () => {
             We Help You Make Modern Interior
           </h2>
         </div>
-        <div className="absolute z-20 items-center justify-center hidden w-32 h-32 sm:flex -bottom-4 bg-white/40 backdrop-blur-3xl right-20">
+        <div className="absolute z-20 items-center justify-center hidden w-32 h-32 md:flex -bottom-4 bg-white/40 backdrop-blur-3xl right-20">
           <ArrowDownIcon className="w-8 h-16 text-white" />
         </div>
       </div>

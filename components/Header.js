@@ -48,7 +48,7 @@ const Header = () => {
         animateHeader
           ? "bg-white/30 backdrop-blur-xl shadow-xl duration-100"
           : ""
-      } top-0 z-50 flex items-center justify-between w-screen px-10 sm:px-32 py-5`}
+      } top-0 z-50 flex items-center justify-between w-screen px-10 lg:px-32 py-5`}
     >
       <Image
         src="/logo.svg"
@@ -58,7 +58,7 @@ const Header = () => {
         height={37}
         objectFit="contain"
       />
-      <div className="hidden w-3/5 sm:flex justify-evenly">
+      <div className="hidden w-3/5 lg:flex justify-evenly">
         {items.map((item, i) => (
           <a
             key={i}
@@ -70,10 +70,10 @@ const Header = () => {
         ))}
       </div>
       <div className="flex">
-        <SearchIcon className="hidden w-5 h-5 mr-4 md:flex" />
+        <SearchIcon className="hidden w-5 h-5 mr-4 lg:flex" />
         <MoreIcon
           onClick={handleShow}
-          className="flex w-5 h-5 ml-4 md:hidden"
+          className="flex w-5 h-5 ml-4 lg:hidden"
         />
       </div>
       {show && (

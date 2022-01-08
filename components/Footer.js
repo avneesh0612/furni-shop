@@ -6,7 +6,7 @@ const Footer = () => {
       id="contact"
       className="flex flex-col w-full p-5 py-20 scroll-m-20 md:p-20 bg-sapGreen-600"
     >
-      <div className="flex flex-col sm:flex-row justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
+      <div className="flex flex-col md:flex-row justify-between items-center mx-auto border-b-[1px] pb-20 border-white/10">
         <h3 className="md:w-[56%] text-center md:text-left w-full md:text-5xl text-3xl font-medium text-white font-Montserrat">
           Make your house look amazing with our furniture today!
         </h3>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-between w-full p-10 mt-20 ml-2 sm:flex-row">
+      <div className="flex flex-col justify-between w-full p-10 mt-20 ml-2 md:flex-row">
         <div className="flex flex-col items-start">
           <Image
             src="/logo-white.svg"

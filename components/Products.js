@@ -4,7 +4,7 @@ const Products = () => {
   return (
     <div
       id="products"
-      className="flex flex-col w-full px-10 scroll-m-20 sm:px-20"
+      className="flex flex-col w-full px-10 scroll-m-20 md:px-20"
     >
       <div className="flex items-center justify-between w-full">
         <h2 className="text-5xl text-[#244D4D] font-semibold">Products</h2>
@@ -12,7 +12,7 @@ const Products = () => {
           <p>See All</p>
         </div>
       </div>
-      <div className="flex flex-row items-center w-full overflow-scroll sm:flex-wrap hidescrollbar sm:justify-evenly">
+      <div className="flex flex-row items-center w-full overflow-scroll md:flex-wrap hidescrollbar md:justify-evenly">
         <Product
           name="Hand Base Lamp"
           discountedPrice={35}

@@ -4,7 +4,7 @@ import Client from "./Client";
 
 const Clients = () => {
   return (
-    <div className="flex flex-col items-center justify-center overflow-hidden sm:mx-auto w-screen sm:w-[95vw] relative my-10 p-10 bg-gray-200 rounded-lg">
+    <div className="flex flex-col items-center justify-center overflow-hidden md:mx-auto w-screen md:w-[95vw] relative my-10 p-10 bg-gray-200 rounded-lg">
       <div className="flex w-full">
         <div className="absolute hidden -top-32 -left-32 w-80 h-80 md:inline-flex">
           <Image src="/circle-pattern.svg" layout="fill" alt="circle pattern" />
