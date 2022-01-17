@@ -1,29 +1,39 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">Welcome to Furniture store landing page 👋</h1>
+<p>
+  <a href="https://github.com/avneesh0612/furni-shop/blob/main/LICENSE" target="_blank">
+    <img alt="License: GPL--3.0" src="https://img.shields.io/badge/License-GPL--3.0-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/avneesh0612" target="_blank">
+    <img alt="Twitter: avneesh0612" src="https://img.shields.io/twitter/follow/avneesh0612.svg?style=social" />
+  </a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+### 🏠 [Homepage](https://furni-shop.vercel.app/)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+### ✨ [Demo](https://furni-shop.vercel.app/)
 
-## Preview
+## Using the template
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+To use this template follow the instructions given in [Using guide](https://github.com/avneesh0612/furni-shop/blob/main/USING.md).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Author
 
-## Deploy your own
+👤 **Avneesh Agarwal**
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+- Website: https://www.avneesh.tech/
+- Twitter: [@avneesh0612](https://twitter.com/avneesh0612)
+- Github: [@avneesh0612](https://github.com/avneesh0612)
+- LinkedIn: [@avneesh0612](https://linkedin.com/in/avneesh0612)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 🤝 Contributing
 
-## How to use
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/avneesh0612/furni-shop/issues).
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Show your support
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+Give a ⭐️ if this project helped you!
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 📝 License
+
+Copyright © 2022 [Avneesh Agarwal](https://github.com/avneesh0612).<br />
+This project is [GPL-3.0](https://github.com/avneesh0612/furni-shop/blob/main/LICENSE) licensed.
