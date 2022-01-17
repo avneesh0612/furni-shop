@@ -10,7 +10,8 @@
 
 ### 🏠 [Homepage](https://furni-shop.vercel.app/)
 
-### ✨ [Demo](https://furni-shop.vercel.app/)
+![image](https://user-images.githubusercontent.com/76690419/149756348-9589e06d-3604-4004-a00c-7d0398eb6e52.png)
+
 
 ## Using the template
 
